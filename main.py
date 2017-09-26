@@ -60,5 +60,5 @@ class main:
             
 
 main.main()
-# -*- coding: utf-8 -*-
+
 
