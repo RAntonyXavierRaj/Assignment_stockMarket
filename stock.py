@@ -42,7 +42,7 @@ class stock:
     def recordTrade(self, timeStamp, quantity, buySellIndicator, price):
         trades = trade (timeStamp, quantity, buySellIndicator, price)
         self.record.append(trades)
-        return trades
+
    
     # function to calculate Volume weighted stock price
     # recorded trades under the stocks are used to find the volume weights.  

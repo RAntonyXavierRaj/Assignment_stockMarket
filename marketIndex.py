@@ -20,4 +20,3 @@ class marketIndex():
         # finding root based on the number of stocks
         allShareIndex = z ** (1/len(self.stocks))  
         return allShareIndex
-    
